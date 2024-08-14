@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * DISCLAIMER
+ *
+ * This is a derivative work from Smile's ElasticsuiteVirtualCategory module.
+ * Original credits: Aurelien FOUCRET <aurelien.foucret@smile.fr> 2020 Smile
+ *
+ * @category  Ep
+ * @package   CategoryDragSort
+ * @author    Enzo PERROTTA <enzo.perrotta@gmail.com>
+ * @copyright 2024 Enzo PERROTTA
+ * @license   Open Software License ("OSL") v. 3.0
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Block\Adminhtml\Category\Tab\Product"
+                type="Ep\CategoryDragSort\Block\Adminhtml\Catalog\Category\Tab\Product"/>
+</config>
